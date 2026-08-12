@@ -1,0 +1,8 @@
+// Package posts implements HTTP handlers and storage for blog posts.
+package posts
+
+type Post struct {
+	ID    int    `json:"id"`
+	Title string `json:"title"`
+	Body  string `json:"body"`
+}
